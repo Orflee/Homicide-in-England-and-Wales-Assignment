@@ -1,0 +1,37 @@
+<?php
+    include("./php/pageTemplate.php"); 
+    render('<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <link rel="stylesheet" type="text/css" href="./css/style.css" media="screen"/>
+            <link rel="stylesheet" type="text/css" href="./css/fonts.css" media="screen"/>
+            <title>
+                Homicide in England and Wales
+            </title>
+        </head>
+        <body>
+            <nav>
+                <div>
+                    <i>
+                        <a href="index.html">Homicide in England and Wales</a>
+                    </i>
+                    <ul>
+                        <a href="./html/Offences initially recorded as homicide.html">Offences initially recorded as homicide</a>
+                        <a href="./html/Homicide incident trend analysis.html">Homicide incident trend analysis</a>
+                        <a href="./html/Observed and expected number of homicide incidents recorded on a day.html">Observed and expected number of homicide incidents recorded on a day</a>
+                        <a href="./html/Rate of offences per million population currently recorded as homicide, by age and sex of victim.html">Rate of offences per million population currently recorded as homicide, by age and sex of victim</a>
+                        <a href="./html/Percentage of offences currently recorded as homicide, by age and ethnic appearance of victim.html">Percentage of offences currently recorded as homicide, by age and ethnic appearance of victim</a>
+                        <a href="./html/Number and percentage of offences currently recorded as homicide.html">Number and percentage of offences currently recorded as homicide for victims aged under 16, by relationship of victim to principal suspect and sex of victim</a>
+                    </ul>
+                </div>
+            </nav>
+            <div id="view"></div>
+            <footer>
+                <div>
+                    100664301 Aggelos Orfeas Kouroumlis 
+                </div>
+            </footer>
+        </body>
+    </html>
+    ');
