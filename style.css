@@ -1,0 +1,92 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: center;
+    gap: 40px;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: center;
+}
+nav i {
+    color: #d4fa00;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30pt;
+    font-style: italic;
+    font-stretch: expanded;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: center;
+    font-weight: bolder;
+}
+nav b {
+    color: #000000;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 24pt;
+    width: 100%;
+    font-weight: bold;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+nav ul {
+    color: #000000;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 24pt;
+    width: fit-content;
+    font-weight: lighter;
+    align-items: center;
+    white-space: break-spaces;
+    display: grid;
+    grid-template-rows: 3.5fr 0.2fr 1.5fr;
+    grid-template-columns: 1fr 1fr 1.5fr;
+}
+
+#view {
+    position: absolute;
+    bottom: 80px
+}
+footer {
+    background-color: #e5e900;
+    color: #000000;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 24pt;
+    width: 100%;
+}
+footer > div {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
